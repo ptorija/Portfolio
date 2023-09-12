@@ -1,3 +1,12 @@
+:root{
+    --blanco: #ffffff;
+    --oscuro: #212121;
+    --gris_oscuro: #4d4b4b;
+    --gris: #757575;
+    --primario: #FFC107;
+    --secundario: #0097A7;
+}
+
 html {
     font-size: 62.5%;
 }
@@ -9,11 +18,14 @@ body {
 .titulo {
     text-align: center;
     font-size: 5rem;
-  }
+    color: var(--oscuro) ;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
 
 .titulo span {
     font-size: 2.3rem;
-    color: rgb(65, 64, 64);
+    color: var(--gris_oscuro);
 }
 
 a {
